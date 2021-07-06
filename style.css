@@ -91,6 +91,7 @@ h1 {
   color: rgb(68, 61, 61);
   font-weight: 500;
 }
+
 .heading-2 h2 {
   text-align: center;
   padding-top: 20px;
@@ -104,11 +105,12 @@ h1 {
 .row {
   display: flex;
   padding-top: 20px;
+  padding-bottom: 60px;
 }
 .column {
-  width: 40%;
-  margin-left: 3%;
-  margin-right: 3%;
+  width: 33.33%;
+  margin-left: 2%;
+  margin-right: 2%;
   height: auto;
   border-radius: 20px;
   padding: 20px;
@@ -116,4 +118,16 @@ h1 {
 }
 .column img {
   width: 100%;
+}
+footer {
+  height: 200px;
+  background-color: #23282c;
+  color: white;
+  text-align: center;
+}
+footer h2 {
+  padding-top: 30px;
+}
+footer p {
+  padding-top: 10px;
 }
