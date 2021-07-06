@@ -8,6 +8,7 @@ body {
 }
 .flexible {
   display: flex;
+  padding-bottom: 40px;
 }
 .side-by-side {
   width: 50%;
@@ -16,13 +17,15 @@ body {
 .dancing-script {
   font-family: "Dancing Script", cursive;
   padding-left: 20px;
+  padding-top: 20px;
 }
 ul {
   list-style-type: none;
 }
 li {
   display: inline;
-  padding: 16px;
+  padding-top: 30px;
+  padding-left: 16px;
 }
 li a {
   text-decoration: none;
@@ -41,18 +44,34 @@ li a:hover {
 .color {
   color: tomato;
 }
+h1 {
+  margin: 0;
+  padding: 0;
+}
 .heading-intro {
   font-size: 40px;
   font-weight: 800;
-  color: rgb(122, 96, 96);
-  padding: 16px;
-  line-height: 2px;
+  color: rgb(43, 35, 35);
+  padding-bottom: 2px;
 }
-.another-para {
-  font-weight: 300;
-  color: rgba(128, 128, 128, 0.904);
+.intro-paragraph {
+  font-weight: 200;
+  color: rgba(19, 10, 10, 0.904);
+  padding: 2px;
 }
 
 .side-by-side img {
   padding-left: 40px;
+}
+
+.link-button {
+  background-image: linear-gradient(rgb(252, 92, 64), rgb(243, 178, 57));
+  padding: 15px 25px;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+}
+.link-button a {
+  text-decoration: none;
+  color: #fff;
 }
