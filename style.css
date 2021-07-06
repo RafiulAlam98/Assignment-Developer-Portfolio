@@ -69,7 +69,7 @@ h1 {
 .link-button {
   background-image: linear-gradient(rgb(252, 92, 64), rgb(243, 178, 57));
   padding: 15px 25px;
-  border-radius: 10px;
+  border-radius: 20px;
   display: inline-block;
   text-align: center;
   text-decoration: none;
