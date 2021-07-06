@@ -12,7 +12,7 @@ body {
 }
 .side-by-side {
   width: 50%;
-  padding-left: 20px;
+  padding-left: 5px;
 }
 .dancing-script {
   font-family: "Dancing Script", cursive;
@@ -48,13 +48,13 @@ h1 {
   margin: 0;
   padding: 0;
 }
-.heading-intro {
+.heading-1 {
   font-size: 40px;
   font-weight: 800;
-  color: rgb(43, 35, 35);
+  color: rgb(75, 54, 54);
   padding-bottom: 2px;
 }
-.intro-paragraph {
+.first-paragraph {
   font-weight: 200;
   color: rgba(19, 10, 10, 0.904);
   padding: 2px;
@@ -70,8 +70,50 @@ h1 {
   border-radius: 10px;
   display: inline-block;
   text-align: center;
-}
-.link-button a {
   text-decoration: none;
   color: #fff;
+}
+
+.center {
+  padding-top: 50px;
+  padding-right: 10px;
+}
+
+.bg-img {
+  background-image: url("images/shapes/Frame 59.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.second-paragraph {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  color: rgb(68, 61, 61);
+  font-weight: 500;
+}
+.heading-2 h2 {
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(75, 54, 54);
+}
+
+.third-paragraph {
+  text-align: center;
+  color: rgba(19, 10, 10, 0.904);
+}
+.row {
+  display: flex;
+  padding-top: 20px;
+}
+.column {
+  width: 40%;
+  margin-left: 3%;
+  margin-right: 3%;
+  height: auto;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 10px 10px 30px grey;
+}
+.column img {
+  width: 100%;
 }
