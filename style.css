@@ -37,9 +37,10 @@ li a {
 li a:hover {
   color: tomato;
 }
-#about {
+#hero-section {
   padding-top: 40px;
   padding-left: 60px;
+  padding-bottom: 0;
 }
 .color {
   color: tomato;
